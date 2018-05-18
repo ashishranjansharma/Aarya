@@ -7,12 +7,25 @@
 //
 
 #include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
 
 int main(int argc, const char * argv[])
 {
 
+    extern char **environ;
     // insert code here...
-    printf("Hello, World!\n");
+    pid_t  pid;
+    
+    pid = fork();
+    if ( pid == 0 ) {
+        //child process
+        printf("Hello, World!\n");
+    } else {
+        //parent
+        printf("Hello, my dear Sinu!\n");
+    }
+    
     return 0;
 }
 

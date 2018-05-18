@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40F0AE21A9CEF210004DD42 /* environ.c in Sources */ = {isa = PBXBuildFile; fileRef = E40F0AE11A9CEF210004DD42 /* environ.c */; };
 		E4E5684F187B0B7700EFD8FC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E4E5684E187B0B7700EFD8FC /* main.c */; };
 		E4E56851187B0B7700EFD8FC /* Learning2Code.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4E56850187B0B7700EFD8FC /* Learning2Code.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E40F0AE11A9CEF210004DD42 /* environ.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = environ.c; path = Learning2Code/environ.c; sourceTree = "<group>"; };
 		E4E5684B187B0B7700EFD8FC /* Learning2Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learning2Code; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E5684E187B0B7700EFD8FC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E4E56850187B0B7700EFD8FC /* Learning2Code.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Learning2Code.1; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		E4E56842187B0B7700EFD8FC = {
 			isa = PBXGroup;
 			children = (
+				E40F0AE11A9CEF210004DD42 /* environ.c */,
 				E4E5684D187B0B7700EFD8FC /* Learning2Code */,
 				E4E5684C187B0B7700EFD8FC /* Products */,
 			);
@@ -118,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E5684F187B0B7700EFD8FC /* main.c in Sources */,
+				E40F0AE21A9CEF210004DD42 /* environ.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +229,7 @@
 				E4E56856187B0B7700EFD8FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
